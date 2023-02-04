@@ -14,11 +14,9 @@ public class Repetitiva06 {
         int numero = scanner.nextInt();
         if (numero >= 1 && numero <= 10) {
             for (int i = 1; i <= 12; i++) {
-
-                resultado = resultado + (i * numero) +", ";
-                //System.out.print(i * numero +", ");
+                resultado = resultado + (i * numero) + ", ";
             }
-            System.out.println( resultado.substring(0, resultado.length() - 2));
+            System.out.println(resultado.substring(0, resultado.length() - 2));
         } else {
             System.out.println("El valor ingresado debe ser entre 1 - 10");
         }
